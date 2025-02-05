@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node", // Importante para reconhecer módulos do Node.js
+    "typeRoots": ["./node_modules/@types"] // Inclui as definições de tipos do node_modules
+  }
+}
